@@ -1,0 +1,11 @@
+
+h1.tituloprincipal{
+	border: 5px solid #ff0000;
+	background-color: blue;
+
+}
+
+p.comentarios{
+	border-top: 1px solid #ff0000;
+	border-bottom: 1px solid #ffff00;
+}

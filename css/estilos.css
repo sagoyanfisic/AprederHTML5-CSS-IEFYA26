@@ -1,0 +1,17 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color: yellow;
+	font-family: times new roman;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p{
+	color: green;
+	font-family: verdana;
+	text-align: justify;
+}
