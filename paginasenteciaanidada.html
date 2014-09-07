@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anidadas</title>
+</head>
+<body>
+  <script type="text/javascript">
+  var nota1,nota2,nota3;
+  nota1=prompt('Ingrese 1ra. nota:','');
+  nota2=prompt('Ingrese 2da. nota:','');
+  nota3=prompt('Ingrese 3ra. nota:','');
+  //Convertimos los 3 string en enteros
+  nota1=parseInt(nota1);
+  nota2=parseInt(nota2);
+  nota3=parseInt(nota3);
+  var pro;
+  pro=(nota1+nota2+nota3)/3;
+  if (pro<=10.5 && pro<=20)
+  {
+    document.write('Desaprobado');
+  }
+  else
+  {
+    if (pro>=10.5)
+    {
+      document.write('Aprobado');
+    }
+    else
+    {
+      document.write('Ingrese bien los datos');
+    }
+  }
+</script>
+</body>
+</html>
